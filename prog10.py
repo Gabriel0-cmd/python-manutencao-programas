@@ -1,8 +1,9 @@
 soma = 0
-valor = int(input("Digite um valor (0 para sair): "))
 
-while valor != 0:
-    soma = valor
+while True:
     valor = int(input("Digite um valor (0 para sair): "))
+    if valor == 0:
+        break
+    soma += valor
 
 print("Soma =", soma)

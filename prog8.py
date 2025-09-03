@@ -4,4 +4,6 @@ while True:
     senha = input("Digite a senha: ")
     if senha == senha_correta:
         print("Acesso liberado")
-    break   
+        break
+    else:
+        print("Senha incorreta, tente novamente.")
